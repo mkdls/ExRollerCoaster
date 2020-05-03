@@ -1,0 +1,15 @@
+{
+    "IconName":"coaster",
+    "MainSetting":{
+        "ModelID":"MochiSystems.Default",
+        "ModelName":"coaster.obj",
+        "TextureName":"coaster.png",
+        "Width":2.0,
+        "Height":2.0,
+        "Weight":1000,
+        "ConnectDistance":1.5,
+        "Seats":[
+            {"SeatSize":0.9, "LocalPosition":{"x":0, "y":0.4, "z":0}, "LocalRotationDegree":{"x":0, "y":0, "z":0}}
+        ]
+    }
+}

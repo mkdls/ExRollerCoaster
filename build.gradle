@@ -1,0 +1,37 @@
+sourceSets.main {
+ 	java.srcDirs project.projectDir.name
+    resources.srcDirs project.projectDir.name
+}
+
+apply from: 'gradle/version.gradle'
+//version = "2.0alpha"
+
+tasks.withType(Jar) 
+{
+    compileJava.options.encoding = 'UTF-8'
+    compileApiJava.options.encoding = 'UTF-8'
+}
+
+group= "mochisystems.erc" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+  
+dependencies 
+{
+    compile project(':MochiSystemsCore')
+}
+jar {
+    manifest {
+        //attributes 'FMLCorePlugin': 'erc.rewriteClass.loadingPlugin'
+        //attributes 'FMLCorePluginContainsFMLMod': true
+    }
+}
+
+def defaultEncoding = 'UTF-8'
+tasks.withType(AbstractCompile) each {
+    it.options.encoding = defaultEncoding
+    it.options.compilerArgs += ['-source', '1.8', '-target', '1.8']
+}
+
+compileTestJava {
+    options.encoding = defaultEncoding
+    options.compilerArgs += ['-source', '1.8', '-target', '1.8']
+}

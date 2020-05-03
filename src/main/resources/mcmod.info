@@ -1,0 +1,16 @@
+[
+{
+  "modid": "mochisystems.erc",
+  "name": "Ex Roller Coaster",
+  "description": "",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["tera_motty"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

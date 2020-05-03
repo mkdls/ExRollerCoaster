@@ -1,0 +1,15 @@
+{
+    "IconName":"coaster_inv",
+    "MainSetting":{
+        "ModelID":"MochiSystems.Inverted",
+        "ModelName":"coaster_d.obj",
+        "TextureName":"coaster.png",
+        "Width":1.2,
+        "Height":2.0,
+        "Weight":800,
+        "ConnectDistance":1,
+        "Seats":[
+            {"SeatSize":0.9, "LocalPosition":{"x":0, "y":2, "z":0.6}, "LocalRotationDegree":{"x":0, "y":0, "z":90}}
+        ]
+    }
+}

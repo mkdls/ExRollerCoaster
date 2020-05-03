@@ -1,0 +1,16 @@
+{
+    "IconName":"coaster_d",
+    "MainSetting":{
+        "ModelID":"MochiSystems.DoubleSeat",
+        "ModelName":"coaster_inv.obj",
+        "TextureName":"coaster.png",
+        "Width":2.0,
+        "Height":2.0,
+        "Weight":1300,
+        "ConnectDistance":1.5,
+        "Seats":[
+            {"SeatSize":0.9, "LocalPosition":{"x":0, "y":0.46, "z":0}, "LocalRotationDegree":{"x":0, "y":0, "z":0}},
+            {"SeatSize":0.9, "LocalPosition":{"x":0, "y":-0.46, "z":0}, "LocalRotationDegree":{"x":0, "y":0, "z":0}}
+        ]
+    }
+}
