@@ -159,7 +159,8 @@ public class GUICoasterModelConstructor extends GUIBlockModelerBase {
 
 //        Canvas.addCheckButton(0, width - 20, 42, tile.FlagDrawCore, "draw core", MessageFerrisMisc.GUIDrawCoreFlag);
 //        GuiUtil.addCheckButton(Canvas, buttonList, 0, width - 20, 72, tile.FlagDrawEntity, "draw Mobs", GUIDrawEntityFlag);
-        GuiUtil.addCheckButton(Canvas, fontRendererObj, 0, width - 20, 72, tile.FlagDrawEntity, "draw Mobs",
+        GuiUtil.addCheckButton(Canvas, fontRendererObj, 0, width - 20, 72,
+                () -> tile.FlagDrawEntity, "draw Mobs",
                 isOn -> SendMessageForIndex(GUIDrawEntityFlag, 0));
         //        Canvas.addCheckButton(0, width - 20, 102, tile.isCoreConnector,
 //                StatCollector.translateToLocal("gui.constructor.switch.coreconnector"),
