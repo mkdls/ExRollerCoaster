@@ -124,17 +124,15 @@ public class BlockModelRailRenderer extends RailRenderer implements IRailRendere
         }
 
         @Override
-        protected int CalcBlocksHash(int pass, int start, int end, int widthX, int widthY, int widthZ)
+        protected void CalcExtHash(HashMaker hasher)
         {
-            HashMaker hasher = new HashMaker(super.CalcBlocksHash(pass, start, end, widthX, widthY, widthZ));
             hasher.Append('x');
-            hasher.Append( rail.GetController().x());
+            hasher.Append(rail.GetController().x());
             hasher.Append('y');
             hasher.Append(rail.GetController().y());
             hasher.Append('z');
             hasher.Append(rail.GetController().z());
             hasher.Append(idx);
-            return hasher.GetHash();
         }
     }
 
