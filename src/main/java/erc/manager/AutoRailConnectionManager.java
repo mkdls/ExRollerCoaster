@@ -2,15 +2,15 @@ package erc.manager;
 
 import erc.coaster.Seat;
 import erc.rail.IRailController;
-import mochisystems._core.Logger;
+import mochisystems._mc._1_7_10._core.Logger;
 import mochisystems.math.Vec3d;
-import erc._mc.tileentity.TileEntityRail;
+import erc._mc._1_7_10.tileentity.TileEntityRail;
 import erc.rail.IRail;
 
-import erc._core.ERC_Logger;
-import erc._mc.entity.EntityCoasterSeat;
-import erc._mc.network.ERC_MessageConnectRailCtS;
-import erc._mc.network.ERC_PacketHandler;
+import erc._mc._1_7_10._core.ERC_Logger;
+import erc._mc._1_7_10.entity.EntityCoasterSeat;
+import erc._mc._1_7_10.network.ERC_MessageConnectRailCtS;
+import erc._mc._1_7_10.network.ERC_PacketHandler;
 import net.minecraft.entity.player.EntityPlayer;
 
 public class AutoRailConnectionManager {

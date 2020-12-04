@@ -1,7 +1,7 @@
 package erc.model;
 
 import mochisystems.util.IModel;
-import mochisystems.bufferedrenderer.IBufferedRenderer;
+import mochisystems._mc._1_7_10.bufferedrenderer.IBufferedRenderer;
 import mochisystems.util.HashMaker;
 
 import cpw.mods.fml.client.FMLClientHandler;

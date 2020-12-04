@@ -1,9 +1,8 @@
 package erc.renderer.rail;
 
-import erc._mc.tileentity.TileEntityRailModelConstructor;
 import erc.rail.IRail;
 import mochisystems.blockcopier.BlocksRenderer;
-import mochisystems.blockcopier.MTYBlockAccess;
+import mochisystems._mc._1_7_10.world.MTYBlockAccess;
 import mochisystems.math.Vec3d;
 import mochisystems.util.HashMaker;
 import net.minecraft.client.renderer.Tessellator;

@@ -1,9 +1,6 @@
 package erc.coaster;
 
 
-import mochisystems._core.Logger;
-import mochisystems.math.Mat4;
-
 public class Seat{
 
     public interface ISeatController

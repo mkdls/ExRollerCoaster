@@ -1,12 +1,8 @@
 package erc.coaster;
 
-import erc._mc.tileentity.TileEntityRail;
-import mochisystems._core.Logger;
-import mochisystems.math.Mat4;
 import erc.rail.IRail;
 import mochisystems.math.Quaternion;
 import mochisystems.math.Vec3d;
-import sun.security.krb5.internal.crypto.Des;
 
 public class Coaster {
 

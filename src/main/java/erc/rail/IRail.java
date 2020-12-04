@@ -1,6 +1,6 @@
 package erc.rail;
 
-import erc._mc.gui.GUIRail;
+import erc._mc._1_7_10.gui.GUIRail;
 import mochisystems.math.Mat4;
 import mochisystems.math.Quaternion;
 import mochisystems.math.Vec3d;

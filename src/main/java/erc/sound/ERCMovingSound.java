@@ -1,6 +1,6 @@
 package erc.sound;
 
-import erc._mc.entity.EntityCoasterSeat;
+import erc._mc._1_7_10.entity.EntityCoasterSeat;
 import net.minecraft.client.audio.ISound;
 import net.minecraft.client.audio.MovingSound;
 import net.minecraft.entity.player.EntityPlayer;

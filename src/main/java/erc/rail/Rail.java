@@ -1,8 +1,7 @@
 package erc.rail;
 
-import erc._core.ERC_Logger;
-import erc._mc.gui.GUIRail;
-import mochisystems.bufferedrenderer.IBufferedRenderer;
+import erc._mc._1_7_10._core.ERC_Logger;
+import erc._mc._1_7_10.gui.GUIRail;
 import mochisystems.math.Math;
 import mochisystems.math.Mat4;
 import mochisystems.math.Quaternion;

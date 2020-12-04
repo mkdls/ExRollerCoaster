@@ -1,8 +1,7 @@
 package erc.coaster;
 
-import mochisystems._core.Logger;
+import mochisystems._mc._1_7_10._core.Logger;
 import mochisystems.math.Vec3d;
-import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.client.model.IModelCustom;
 

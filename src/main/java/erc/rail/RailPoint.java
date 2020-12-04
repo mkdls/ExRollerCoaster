@@ -2,7 +2,6 @@ package erc.rail;
 
 
 import io.netty.buffer.ByteBuf;
-import mochisystems._core.Logger;
 import mochisystems.math.Mat4;
 import mochisystems.math.Vec3d;
 import net.minecraft.nbt.NBTTagCompound;

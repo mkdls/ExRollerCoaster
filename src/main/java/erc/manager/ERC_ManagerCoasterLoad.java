@@ -6,8 +6,8 @@
 //import java.util.TreeMap;
 //import java.util.UUID;
 //
-//import erc._core.ERC_Logger;
-//import erc._mc.entity.EntityCoaster;
+//import erc._mc._1_7_10._core.ERC_Logger;
+//import erc._mc._1_7_10.entity.EntityCoaster;
 //import net.minecraft.entity.Entity;
 //import net.minecraft.world.World;
 //

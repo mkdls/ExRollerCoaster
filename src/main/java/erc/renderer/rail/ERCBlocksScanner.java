@@ -1,7 +1,7 @@
 package erc.renderer.rail;
 
-import erc._mc.block.BlockCoasterModelConstructor;
-import erc._mc.block.BlockRailModelConstructor;
+import erc._mc._1_7_10.block.BlockCoasterModelConstructor;
+import erc._mc._1_7_10.block.BlockRailModelConstructor;
 import mochisystems.blockcopier.BlocksScanner;
 import mochisystems.math.Vec3d;
 import net.minecraft.block.Block;

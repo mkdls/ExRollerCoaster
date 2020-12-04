@@ -5,7 +5,7 @@ import erc.rail.IRail;
 import erc.rail.RailPoint;
 import mochisystems.math.Math;
 import mochisystems.math.Vec3d;
-import mochisystems.bufferedrenderer.IBufferedRenderer;
+import mochisystems._mc._1_7_10.bufferedrenderer.IBufferedRenderer;
 
 public abstract class RailRenderer extends IBufferedRenderer implements IRailRenderer{
 

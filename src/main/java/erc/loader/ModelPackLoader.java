@@ -10,8 +10,8 @@ import java.nio.file.Paths;
 import java.util.*;
 
 import com.google.gson.Gson;
-import erc._core.ERC_Core;
-import erc._core.ERC_Logger;
+import erc._mc._1_7_10._core.ERC_Core;
+import erc._mc._1_7_10._core.ERC_Logger;
 import erc.coaster.CoasterSettings;
 import net.minecraft.client.Minecraft;
 import net.minecraft.util.ResourceLocation;

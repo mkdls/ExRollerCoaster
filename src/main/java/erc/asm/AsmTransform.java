@@ -1,11 +1,11 @@
 package erc.asm;
 
-import mochisystems.easyasm.EasyAsm;
-import mochisystems.easyasm.adaptor.FieldAdapter_RemoveFinal;
-import mochisystems.easyasm.adaptor.Insert;
-import mochisystems.easyasm.distributor.ClassAdapter;
-import mochisystems.easyasm.distributor.FieldAdapter;
-import mochisystems.easyasm.distributor.MethodAdapter;
+import mochisystems._mc._1_7_10.easyasm.EasyAsm;
+import mochisystems._mc._1_7_10.easyasm.adaptor.FieldAdapter_RemoveFinal;
+import mochisystems._mc._1_7_10.easyasm.adaptor.Insert;
+import mochisystems._mc._1_7_10.easyasm.distributor.ClassAdapter;
+import mochisystems._mc._1_7_10.easyasm.distributor.FieldAdapter;
+import mochisystems._mc._1_7_10.easyasm.distributor.MethodAdapter;
 import net.minecraft.launchwrapper.LaunchClassLoader;
 import org.objectweb.asm.MethodVisitor;
 import org.objectweb.asm.Opcodes;
